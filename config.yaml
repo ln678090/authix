@@ -1,0 +1,6 @@
+server:
+  httpAddress: ":8082"
+
+persistence:
+  postgres:
+    dsn: "postgres://postgres:postgres@localhost:5432/authix?sslmode=disable"
